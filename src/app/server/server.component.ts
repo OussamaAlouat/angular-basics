@@ -5,5 +5,11 @@ import {Component} from '@angular/core';
 })
 
 export class ServerComponent {
+  public serverId: Number;
+  public serverStatus:string;
 
+  constructor() {
+    this.serverStatus = 'offline';
+    this.serverId = 10;
+  }
 }
